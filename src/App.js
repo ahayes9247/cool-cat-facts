@@ -26,17 +26,14 @@ export default function App() {
   const fetchElement = document.getElementById('para');
 
   // Styles the cat facts container when the button is clicked.
-  fetchElement.style.padding = '5%';
-  fetchElement.style.margin = '20% 0% 0% 13%';
+  fetchElement.style.padding = '10%';
+  fetchElement.style.margin = '0% 0% 0% 7%';
   fetchElement.style.textAlign = 'justify';
   fetchElement.style.width = '100%';
   fetchElement.style.maxWidth = '80%';
-  fetchElement.style.backgroundColor = '#000';
-  fetchElement.style.color = '#fff'; 
-  fetchElement.style.borderRadius = '25px';
-  fetchElement.style.border = 'dotted 1px #000';
+  fetchElement.style.color = '#000'; 
+  fetchElement.style.borderRadius = '100px';
   fetchElement.style.fontSize = '24px';
-  fetchElement.style.fontWeight = 'bold';
 
   // Passes the cat fact to elements with the ID 'para'.
   fetchElement.innerHTML = fetchFact;
@@ -48,7 +45,7 @@ export default function App() {
     const fetchImage = document.getElementById('random-cat-pic');
   // Assigns the API URL to the image's source.
     fetchImage.src = 'https://cataas.com/cat';
-    fetchImage.style.width = '400px';
+    fetchImage.style.width = '420px';
     fetchImage.style.height = '420px';
   }
 
@@ -61,9 +58,9 @@ export default function App() {
           <div id="cat-fact-col-1" className="col">
             <h1>Did You Know?</h1>
 
-            <p>
-              Click the button below to get a super cool cat fact!
-            </p>
+            <div id="cat-fact-text" className="row">
+                <p id="para"></p>
+            </div>
 
             <div className="row" id="cat-fact-button-row">
                 <div className="col" id="fact-button-col">
@@ -76,10 +73,6 @@ export default function App() {
                     Get New Cat Picture
                   </button>
                 </div>
-
-              <div id="cat-fact-text" className="row">
-                <p id="para"></p>
-              </div>
 
             </div>
           </div>

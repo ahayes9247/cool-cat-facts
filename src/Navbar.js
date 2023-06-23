@@ -3,9 +3,9 @@ import { Container, Navbar } from 'react-bootstrap';
 function BrandNavbar() {
   return (
     <>
-      <Navbar bg="light">
+      <Navbar bg="light" id="navbar">
         <Container>
-          <Navbar.Brand href="/">Cool Cat Facts</Navbar.Brand>
+          <Navbar.Brand href="/" id="navbar-logo">Cool Cat Facts</Navbar.Brand>
         </Container>
       </Navbar>
 
