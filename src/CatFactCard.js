@@ -39,13 +39,13 @@ function CatFactCard() {
     // Assigns the API URL to the image's source.
       fetchImage.src = 'https://cataas.com/cat';
       fetchImage.style.width = '100%';
-      fetchImage.style.height = '200px';
-      fetchImage.style.maxHeight = '300px';
+      fetchImage.style.height = '300px';
+      fetchImage.style.maxHeight = '400px';
     }
 
     return(
         <div className="card" style={{width: '23rem', backgroundColor: '#fff'}}>
-        <img className="card-img-top" id="random-cat-pic" src="..." alt="Click the image icon for a cat!" style={{maxHeight: '200px', height: '200px', backgroundImage: 'url(https://placehold.co/200)', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', border: '0px'}} />
+        <img className="card-img-top" id="random-cat-pic" src="https://placehold.co/400" alt="Click the image icon for a cat!" />
             <div className="card-body">
                 <h5 className="card-title">Did You Know?</h5>
                 
