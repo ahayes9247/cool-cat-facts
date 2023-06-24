@@ -37,7 +37,7 @@ export default function ImageButton() {
         setImageIsLoading(false);
       }
 
-          // Selects elements with the ID 'random-cat-pic'.
+    // Selects elements with the ID 'random-cat-pic'.
     const fetchImage = document.getElementById('random-cat-pic');
     // Assigns the API URL to the image's source.
     fetchImage.src = 'https://cataas.com/cat';

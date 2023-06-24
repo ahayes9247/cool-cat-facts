@@ -1,10 +1,10 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faClipboard } from '@fortawesome/free-regular-svg-icons';
+import { faPenToSquare } from '@fortawesome/free-regular-svg-icons';
 import React, { useState, useEffect } from 'react';
 
-library.add(fab, faClipboard);
+library.add(fab, faPenToSquare);
 
 function FactButton() {
     const [data, setData] = useState({data: []});
@@ -49,7 +49,7 @@ function FactButton() {
 
     return(
         <button id="cat-fact-button" className="btn-icon" type="button" onClick={handleClick}>
-            <FontAwesomeIcon className="icon-button" icon="fa-regular fa-clipboard" />
+            <FontAwesomeIcon className="icon-button" icon="fa-regular fa-pen-to-square" />
         </button>
     );
 };

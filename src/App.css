@@ -40,7 +40,7 @@ body {
     border: 0px;
     padding: 5%;
     font-weight: bold;
-    font-size: 56px;
+    font-size: 36px;
     cursor: help;
 }
 
@@ -68,6 +68,15 @@ body {
 
 .card-text {
     text-align: justify;
-    padding: 10% 0% 10% 0%;
+}
+
+.card-text-padding {
     border-bottom: solid 1px #000;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.highlight-me {
+    background-color: #ffd500;
+    border-radius: 20% 25% 20% 24%;
 }
