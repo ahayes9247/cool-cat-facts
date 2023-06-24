@@ -1,6 +1,7 @@
 import BrandNavbar from "./Navbar.js";
 import './App.css';
-import CatFactCard from "./CatFactCard.js";
+import CatFactCard from "./components/CatFactCard.js";
+
 
 export default function App() {
   return (

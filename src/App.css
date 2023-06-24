@@ -41,11 +41,16 @@ body {
     padding: 5%;
     font-weight: bold;
     font-size: 56px;
+    cursor: help;
 }
 
 .btn:hover {
     background-color: #fff;
     color: #000;
+}
+
+.icon-button {
+    cursor: help;
 }
 
 #fact-button-col {
