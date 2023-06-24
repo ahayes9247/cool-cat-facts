@@ -47,7 +47,7 @@ export default function ImageButton() {
     }
 
     return(
-        <button id="cat-pic-button" className="btn-icon" type="button" onClick={handleImage}>
+        <button id="cat-pic-button" className="btn-icon" type="button" onClick={handleImage} title="Get a New Cat Picture">
             <FontAwesomeIcon className="icon-button" icon="fa-regular fa-image" />
         </button>
     );

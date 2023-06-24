@@ -12,8 +12,8 @@ function ResetColor() {
     }
 
     return(
-        <button id="cat-fact-button" className="btn-icon" type="button" onClick={resetColor}>
-            <FontAwesomeIcon icon="fa-solid fa-rotate-right" />
+        <button id="cat-fact-button" className="btn-icon" type="button" onClick={resetColor} title="Remove Text Highlighting">
+            <FontAwesomeIcon className="icon-button" icon="fa-solid fa-rotate-right" />
         </button>
     );
 }

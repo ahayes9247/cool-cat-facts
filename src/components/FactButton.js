@@ -48,7 +48,7 @@ function FactButton() {
     };
 
     return(
-        <button id="cat-fact-button" className="btn-icon" type="button" onClick={handleClick}>
+        <button id="cat-fact-button" className="btn-icon" type="button" onClick={handleClick} title="Get a New Cat Fact">
             <FontAwesomeIcon className="icon-button" icon="fa-regular fa-pen-to-square" />
         </button>
     );

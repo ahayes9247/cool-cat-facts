@@ -13,8 +13,8 @@ function ColorButton() {
     }
 
     return (
-        <button id="text-color-button" className="btn-icon" type="button" onClick={changeColor}>
-            <FontAwesomeIcon icon="fa-solid fa-paint-roller" />
+        <button id="text-color-button" type="button" className="btn-icon" type="button" onClick={changeColor} title="Add Text Highlighting">
+            <FontAwesomeIcon className="icon-button" icon="fa-solid fa-paint-roller" />
         </button>
     );
 }
